@@ -1,27 +1,24 @@
-# master-nativescript
+# Praca magisterska - Nativescript
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
+Projekt Nativescript na potrzeby pracy magisterskiej.
 
-## Development server
+[Jak zainstalować Nativescript?](https://docs.nativescript.org/angular/start/quick-setup#full-setup)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[Instalacja Nativescript Sidekick](https://www.nativescript.org/nativescript-sidekick)
 
-## Code scaffolding
+## Lokalne uruchomienie aplikacji na telefonie
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Należy podłączyć urządzenie (opcja: transferuj pliki), a następnie w terminalu:
 
-## Build
+1. Upewnić się, że urządzenie jest podłączone: `tns devices`
+2. Uruchomić projekt na urządzeniu: `tns run android/ios --bundle` - bez tej flagi projekt nie zbuduje się poprawnie.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Lokalne uruchomienie strony internetowej
 
-## Running unit tests
+W terminalu należy wykonać: `ng serve`, aplikacja uruchomi się na adresie: `localhost:4200`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Elementy wspólne
 
-## Running end-to-end tests
+Po każdej zmianie w plikach, aplikacja będzie się automatycznie odświeżać i przebudowywać.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Po zakończonej pracy, przerywamy proces w terminalu: `CTRL + C`
